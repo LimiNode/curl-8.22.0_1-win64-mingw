@@ -20,6 +20,8 @@ The SHA256 value is the checksum published on the official curl for Windows
 download page. The repository contains the extracted development files needed
 by the Kurlyk CMake fallback; the original ZIP is not stored here.
 
+Checksum source: <https://curl.se/windows/>
+
 ## Contents
 
 ```text
