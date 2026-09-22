@@ -29,7 +29,13 @@ include/curl/...
 bin/libcurl-x64.dll
 lib/libcurl.dll.a
 COPYING.txt
+licenses/third_party/...
 ```
+
+The curl-for-win DLL is built with several third-party components statically
+linked into it. Their license and notice files are preserved under
+`licenses/third_party/`; see [`licenses/THIRD_PARTY_NOTICES.md`](licenses/THIRD_PARTY_NOTICES.md)
+for the component mapping.
 
 The snapshot is intentionally kept at a fixed commit. Update it by importing a
 new upstream archive into a new commit and recording its provenance above.
